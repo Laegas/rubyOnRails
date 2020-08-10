@@ -20,5 +20,7 @@ class OrderMailer < ApplicationMailer
     @order = order
 
     mail to: order.mail, subject: 'Pragmatic Store Order Shipped'
+
+    mail
   end
 end
