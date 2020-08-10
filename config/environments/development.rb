@@ -63,4 +63,7 @@ Rails.application.configure do
 
   # Book page 171
   config.action_cable.disable_request_forgery_protection = true
+
+  # Book page 217
+  config.action_mailer.delivery_method = :test
 end
